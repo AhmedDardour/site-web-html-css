@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style2.css" />
+        <title>mon premier cite web</title>
+    </head>
+    
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <div id="logo">
+                        <img src="image/ph2.png" alt="Logo de enis " />
+
+                          
+                    </div>
+                    <h1> DARDOUR AHMED </h1> 
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="projet.html">introduction</a></li>
+                        <li><a href="projet2.html">anatomie</a></li>
+                        <li><a href="projet3.html">comportements</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div id="enis_image">
+                <div id="enis_description">
+                    departement de l'informatique.
+                    <a href="https://www.enis.rnu.tn/"target="_blank">aller vers le site enis</a>
+                </div>
+            </div>
+            
+            <section>
+                <article>
+        <fieldset>
+                  <legend><h2>Vos coordonnées</h2></legend> <!-- Titre du fieldset --> 
+                  <label for="nom">Nom :</label><input type="text" id="nom" onfocus="myFunction(this.id)" /><br />
+                  <label for="prenom">Prénom :</label><input type="text" id="prenom" onfocus="myFunction(this.id)" /><br />
+                  <label for="mail">Votre E-mail :</label> <input type="email" name="mail" id="mail" /> <br/>
+                  <label for="adress">Votre Adress </label><input type="text" name="adress" id="adress" /><br />
+                  <label for="tel">numéro telephone  :</label><input type="tel" name="tel" id="tel" /><br/>
+                  <label for="age">Âge :</label> 
+                  <select id="age">
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                   </select><br />
+                <label for="sexe">Sexe :</label><input type="radio" name="sexe" id="sexe" />Homme <input type="radio" name="sexe" />Femme<br />
+                <label for="newsletter">Newsletter :</label><input type="checkbox" />Recevoir <br />
+                <label for="pays">Votre Pays</label>
+                   <select name="pays" id="pays">
+                        <option value="france">Tunisie</option>
+                        <option value="espagne">France</option>
+                        <option value="italie">Italie</option>
+                        <option value="Algerie">Algerie</option>
+                        <option value="Suisse">Suisse</option>
+                        <option value="chine">Chine</option>
+                        <option value="japon">Japon</option>
+                   </select>
+    <script>
+function myFunction(x) {
+  document.getElementById(x).style.background = "orange";
+}
+    </script>
+
+        </fieldset> 
+     <input value="valide" id="submit-button" class="contact-submit wow fadeInUp" data-wow-delay="1s" type="submit">
+             </article>
+
+
+               <aside>
+                    <h1>À propos de moi</h1>
+                    <img src="image/ph1.jpg" width="100px" height="100px" alt="" id="myph1" />
+                    <p>Laisse-moi le temps de me présenter&nbsp;: je m'appelle Ahmed, je suis né le 25 mars 1999.</p>
+                    <p>je suis un étudiant de l'ENIS en première année genie informatique .</p>
+                    
+               </aside>
+            </section>
+            
+            <footer>
+                <div >
+                    <fieldset>
+                    <legend><h2>Vos messges</h2></legend> 
+
+                <div>
+                   <label for="msg">Message:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                </div>
+                   
+  
+  <input value="envoyer le message" id="submit-button" class="contact-submit wow fadeInUp" data-wow-delay="1s" type="submit" >
+                 </fieldset>
+
+                    </div>
+                <fieldset> 
+                  <legend><h2>Voici mon contact</h2></legend> 
+            
+                     <a href="https://www.facebook.com/ahmed.dardour.77"> <img src="image/facebook.png" width="60" height="60" alt="Facebook" /></a>
+                     <a href="https://twitter.com/?lang=fr"> <img src="image/twitter.png" width="60" height="60" alt="Twitter" />         </a>
+                     <a href="https://www.instagram.com/ahmedardour/?hl=fr"><img src="image/instagram.jpg" width="60" height="60" alt="insta" /></a>
+                     <a href="https://www.whatsapp.com/?lang=fr"> <img src="image/whatsapp.jpg" width="60" height="60"> </a>
+            
+                </fieldse>
+
+            </footer>
+    </body>
+
+</html>

@@ -1,0 +1,204 @@
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('image/im1.jpg');
+    font-family: Georgia, Arial, sans-serif;
+    color: #181818;
+}
+label
+{
+    display: block;
+    width: 150px;
+    float: left;
+}
+textarea 
+{
+  width: 400px;
+  height: 100px;
+}
+#bloc_page
+{
+  width: 900px;
+  margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+  font-family: impact;
+  font-weight: normal;
+    
+}
+/* Header */
+
+header
+{
+    background: url('image/im2.jpg') repeat-x bottom;
+    display: flex;
+    justify-content : space-between;
+    align-items: flex-end;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px; vg0b
+	    font-weight: normal;
+}
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+/* Bannière */
+
+#enis_image
+{
+    margin-top: 40px;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    background: url('image/enis.jpg') no-repeat;
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+#enis_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+article, aside
+{
+    text-align: justify;
+}
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+.im4
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+article p
+{
+    font-size: 0.9em;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.myph1
+{
+     margin-top: 40px;
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+}
+/* Footer */
+
+footer
+{
+    display: flex;
+    padding-top: 25px;
+}
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_chats
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#noms_chats ul
+{
+    list-style-image: url('image/chat1.jpg');
+    padding-left: 2px;
+}
+
+#noms_chats a
+{
+    text-decoration: none;
+    color: #760001;
+}
